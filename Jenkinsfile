@@ -6,7 +6,7 @@ pipeline {
             steps {
                 // Your build steps here
                 // For example, building a Docker image:
-                sh 'docker build -t myimage:latest .'
+                sh 'docker build -t storm:latest .'
             }
         }
         
